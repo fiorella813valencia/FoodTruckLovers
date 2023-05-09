@@ -1,0 +1,55 @@
+<div mat-dialog-title>
+  <h1>Person Form</h1>
+</div>
+<Form [formGroup]="empForm" (submit)="onSubmitFunction()">
+  <div mat-dialog-content class="content">
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>First Name</mat-label>
+        <input matInput type="text" placeholder="First Name" required formControlName="ownerFirstName">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Last Name</mat-label>
+        <input matInput type="text" placeholder="Last Name" required formControlName="ownerLastName">
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Food Truck or Brand Name</mat-label>
+        <input matInput type="text" placeholder="Your Food Truck or Brand Name" required formControlName="brandName">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput type="text" placeholder="account@domain.com" required formControlName="email">
+      </mat-form-field>
+    </div>
+
+
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Address</mat-label>
+        <input matInput type="text" type="text" placeholder="Address" formControlName="address">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Website URL </mat-label>
+        <input matInput type="text" type="text" placeholder="Website URL" formControlName="websiteUrl">
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Menu URL</mat-label>
+        <input matInput type="text" type="text" placeholder="Menu Link" formControlName="menuUrl">
+      </mat-form-field>
+    </div>
+
+  </div>
+  <div mat-dialog-actions class="buttons-actions">
+    <button mat-raised-button type="button">Cancel</button>
+    <button mat-raised-button color="primary" type="submit">Save</button>
+  </div>
+</Form>

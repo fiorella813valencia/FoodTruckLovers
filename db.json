@@ -1,0 +1,121 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "owners": [
+    {
+      "ownerFirstName": "thom",
+      "ownerLastName": "yorke",
+      "brandName": "Radiohead",
+      "email": "thompshito@radiohead.com",
+      "address": "magdalena",
+      "websiteUrl": "www.radiocabeza.com",
+      "menuUrl": "http:/iloveradiohead",
+      "id": 1
+    },
+    {
+      "ownerFirstName": "julian",
+      "ownerLastName": "casablancas",
+      "brandName": "the strokes",
+      "email": "thestrokes@gmail.com",
+      "address": "san miguel",
+      "websiteUrl": "www.trazos.com",
+      "menuUrl": "http:/helloidiot",
+      "id": 2
+    },
+    {
+      "ownerFirstName": "Pedro",
+      "ownerLastName": "Pascal",
+      "brandName": "PedritoFood",
+      "email": "pedro.pascal@gmail.com",
+      "address": "Av. La paz 543",
+      "websiteUrl": "www.pedropascal.com",
+      "menuUrl": "www.menupedro.com",
+      "id": 3
+    },
+    {
+      "ownerFirstName": "Mariela",
+      "ownerLastName": "Fernandez",
+      "brandName": "HotDogs",
+      "email": "HotDogs@gmail.com",
+      "address": "Pueblo Libre av. retrovisor",
+      "websiteUrl": "https://angular.io/guide/router",
+      "menuUrl": "https://angular.io/guide/router",
+      "id": 7
+    },
+    {
+      "ownerFirstName": "Fernanda",
+      "ownerLastName": "Array",
+      "brandName": "CoolHotDogs",
+      "email": "CoolHotDogs@gmail.com",
+      "address": "San miguel av. paz 234",
+      "websiteUrl": "https://angular.io/guide/router",
+      "menuUrl": "https://angular.io/guide/router",
+      "id": 8
+    },
+    {
+      "ownerFirstName": "Maria",
+      "ownerLastName": "Array",
+      "brandName": "CoolHotDogs",
+      "email": "CoolHotDogs@gmail.com",
+      "address": "San miguel av. paz 234",
+      "websiteUrl": "https://angular.io/guide/router",
+      "menuUrl": "https://angular.io/guide/router",
+      "id": 9
+    },
+    {
+      "ownerFirstName": "Leonardo",
+      "ownerLastName": "Javascript",
+      "brandName": "CoolHotDogs",
+      "email": "CoolHotDogs@gmail.com",
+      "address": "San miguel av. paz 234",
+      "websiteUrl": "https://angular.io/guide/router",
+      "menuUrl": "https://angular.io/guide/router",
+      "id": 10
+    },
+    {
+      "ownerFirstName": "Emilio",
+      "ownerLastName": "Javascript",
+      "brandName": "CoolHotDogs",
+      "email": "CoolHotDogs@gmail.com",
+      "address": "San miguel av. paz 234",
+      "websiteUrl": "https://angular.io/guide/router",
+      "menuUrl": "https://angular.io/guide/router",
+      "id": 11
+    },
+    {
+      "ownerFirstName": "jhgfvjhg",
+      "ownerLastName": "gfhjgfh",
+      "brandName": "hgfhgf",
+      "email": "gfkhgf",
+      "address": "gfjg",
+      "websiteUrl": "gfjhgf",
+      "menuUrl": "gfjhgfjh",
+      "id": 12
+    },
+    {
+      "ownerFirstName": "gf",
+      "ownerLastName": "efd",
+      "brandName": "wq",
+      "email": "wqw",
+      "address": "wqw",
+      "websiteUrl": "wqw",
+      "menuUrl": "qw",
+      "id": 13
+    }
+  ]
+}
